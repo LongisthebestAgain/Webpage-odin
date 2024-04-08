@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.bar{
+    background-color: #1f2937;
+    padding: 0px 200px;
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navp{
+    flex-shrink: 0;
+}
+.headerlink{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.htext{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-bottom: 0;
+}
+h1{
+    margin-bottom: 5px;
+}
+.signup{
+    margin-top: 0;
+}
